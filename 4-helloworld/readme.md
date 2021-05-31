@@ -5,7 +5,7 @@ which really confused me ( { mov al, [bx] } on line 23 )
 
 # NOTES
 'call' behaves like 'jmp', but pushes the "return address"
-(address of the function caller?) onto the stack
+(address of next instruction) onto the stack
 
 'ret' pops the "return address" off the stack, then 
 jumps to it
